@@ -12,14 +12,18 @@ struct SettingsView: View {
     @State private var kNotification = UserDefaults.standard.bool(forKey: "KNotification")
     @Binding var categories: [Category]
     @State private var nCount: Int = 0
+
+    //@AppStorage("lNotification") var lNotification: bool = false
     
     var body: some View {
         NavigationStack{
             List {
                 Section(header: Text("General")) {
                     Toggle(isOn: $kNotification) {
+                    //Toggle(isOn: $lNotification) {
                         Text("Notifications")
                     }
+                    //.onChange(of: lNotification) {
                     .onChange(of: kNotification) {
                         if kNotification {
                             for language in $categories {
@@ -27,8 +31,7 @@ struct SettingsView: View {
                             }
                             
                             SetLocalNotification(count: nCount)
-                            UserDefaults.standard.set(true, forKey: "KNotification")
-                           
+                            UserDefaults.standard.set(true, forKey: "KNotification")                           
                         }else{
                             UnsetLocalNotification()
                             UserDefaults.standard.removeObject(forKey: "KNotification")

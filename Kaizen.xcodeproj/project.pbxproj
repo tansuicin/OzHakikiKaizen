@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21A26022B2DCCEA00E7675F /* NoteEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A26012B2DCCEA00E7675F /* NoteEditView.swift */; };
+		B2226F772B2F10110020C3CA /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2226F762B2F10110020C3CA /* VersionView.swift */; };
+		B22447892B2DA7A900C9AF57 /* KaizenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447882B2DA7A900C9AF57 /* KaizenApp.swift */; };
+		B224478D2B2DA7AB00C9AF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224478C2B2DA7AB00C9AF57 /* Assets.xcassets */; };
+		B22447902B2DA7AB00C9AF57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224478F2B2DA7AB00C9AF57 /* Preview Assets.xcassets */; };
+		B224479A2B2DA7AB00C9AF57 /* KaizenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447992B2DA7AB00C9AF57 /* KaizenTests.swift */; };
+		B22447A42B2DA7AB00C9AF57 /* KaizenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447A32B2DA7AB00C9AF57 /* KaizenUITests.swift */; };
+		B22447A62B2DA7AB00C9AF57 /* KaizenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447A52B2DA7AB00C9AF57 /* KaizenUITestsLaunchTests.swift */; };
+		B22447BC2B2DB26100C9AF57 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447BB2B2DB26100C9AF57 /* Theme.swift */; };
+		B22447BE2B2DB28500C9AF57 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447BD2B2DB28500C9AF57 /* Category.swift */; };
+		B22447C02B2DB2A400C9AF57 /* CategoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447BF2B2DB2A400C9AF57 /* CategoryStore.swift */; };
+		B22447C32B2DB2DA00C9AF57 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447C22B2DB2DA00C9AF57 /* CardView.swift */; };
+		B22447C52B2DB2FB00C9AF57 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447C42B2DB2FB00C9AF57 /* DetailEditView.swift */; };
+		B22447C72B2DB31200C9AF57 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447C62B2DB31200C9AF57 /* DetailView.swift */; };
+		B22447CB2B2DB35300C9AF57 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447CA2B2DB35300C9AF57 /* ThemePicker.swift */; };
+		B22447CD2B2DB36600C9AF57 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447CC2B2DB36600C9AF57 /* SettingsView.swift */; };
+		B22447D12B2DB38B00C9AF57 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447D02B2DB38B00C9AF57 /* ThemeView.swift */; };
+		B22447D32B2DB3A400C9AF57 /* NewCategorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447D22B2DB3A400C9AF57 /* NewCategorySheet.swift */; };
+		B22447D52B2DB3B900C9AF57 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447D42B2DB3B900C9AF57 /* CategoriesView.swift */; };
+		B22447D72B2DB5D000C9AF57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22447D62B2DB5D000C9AF57 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B22447962B2DA7AB00C9AF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B224477D2B2DA7A900C9AF57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22447842B2DA7A900C9AF57;
+			remoteInfo = Kaizen;
+		};
+		B22447A02B2DA7AB00C9AF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B224477D2B2DA7A900C9AF57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22447842B2DA7A900C9AF57;
+			remoteInfo = Kaizen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B21A26012B2DCCEA00E7675F /* NoteEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditView.swift; sourceTree = "<group>"; };
+		B2226F762B2F10110020C3CA /* VersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionView.swift; sourceTree = "<group>"; };
+		B22447852B2DA7A900C9AF57 /* Kaizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22447882B2DA7A900C9AF57 /* KaizenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenApp.swift; sourceTree = "<group>"; };
+		B224478C2B2DA7AB00C9AF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B224478F2B2DA7AB00C9AF57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B22447952B2DA7AB00C9AF57 /* KaizenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaizenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22447992B2DA7AB00C9AF57 /* KaizenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenTests.swift; sourceTree = "<group>"; };
+		B224479F2B2DA7AB00C9AF57 /* KaizenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaizenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22447A32B2DA7AB00C9AF57 /* KaizenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenUITests.swift; sourceTree = "<group>"; };
+		B22447A52B2DA7AB00C9AF57 /* KaizenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B22447BB2B2DB26100C9AF57 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B22447BD2B2DB28500C9AF57 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B22447BF2B2DB2A400C9AF57 /* CategoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStore.swift; sourceTree = "<group>"; };
+		B22447C22B2DB2DA00C9AF57 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B22447C42B2DB2FB00C9AF57 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		B22447C62B2DB31200C9AF57 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B22447CA2B2DB35300C9AF57 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		B22447CC2B2DB36600C9AF57 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B22447D02B2DB38B00C9AF57 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		B22447D22B2DB3A400C9AF57 /* NewCategorySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategorySheet.swift; sourceTree = "<group>"; };
+		B22447D42B2DB3B900C9AF57 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		B22447D62B2DB5D000C9AF57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B22447822B2DA7A900C9AF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22447922B2DA7AB00C9AF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224479C2B2DA7AB00C9AF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B224477C2B2DA7A900C9AF57 = {
+			isa = PBXGroup;
+			children = (
+				B22447872B2DA7A900C9AF57 /* Kaizen */,
+				B22447982B2DA7AB00C9AF57 /* KaizenTests */,
+				B22447A22B2DA7AB00C9AF57 /* KaizenUITests */,
+				B22447862B2DA7A900C9AF57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22447862B2DA7A900C9AF57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22447852B2DA7A900C9AF57 /* Kaizen.app */,
+				B22447952B2DA7AB00C9AF57 /* KaizenTests.xctest */,
+				B224479F2B2DA7AB00C9AF57 /* KaizenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22447872B2DA7A900C9AF57 /* Kaizen */ = {
+			isa = PBXGroup;
+			children = (
+				B22447C12B2DB2BC00C9AF57 /* Views */,
+				B22447B22B2DA7DE00C9AF57 /* Models */,
+				B22447882B2DA7A900C9AF57 /* KaizenApp.swift */,
+				B224478C2B2DA7AB00C9AF57 /* Assets.xcassets */,
+				B224478E2B2DA7AB00C9AF57 /* Preview Content */,
+			);
+			path = Kaizen;
+			sourceTree = "<group>";
+		};
+		B224478E2B2DA7AB00C9AF57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B224478F2B2DA7AB00C9AF57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B22447982B2DA7AB00C9AF57 /* KaizenTests */ = {
+			isa = PBXGroup;
+			children = (
+				B22447992B2DA7AB00C9AF57 /* KaizenTests.swift */,
+			);
+			path = KaizenTests;
+			sourceTree = "<group>";
+		};
+		B22447A22B2DA7AB00C9AF57 /* KaizenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B22447A32B2DA7AB00C9AF57 /* KaizenUITests.swift */,
+				B22447A52B2DA7AB00C9AF57 /* KaizenUITestsLaunchTests.swift */,
+			);
+			path = KaizenUITests;
+			sourceTree = "<group>";
+		};
+		B22447B22B2DA7DE00C9AF57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B22447BB2B2DB26100C9AF57 /* Theme.swift */,
+				B22447BD2B2DB28500C9AF57 /* Category.swift */,
+				B22447BF2B2DB2A400C9AF57 /* CategoryStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B22447C12B2DB2BC00C9AF57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B262BAEA2B2E16E200F85F4D /* Organize */,
+				B262BAE92B2E15C200F85F4D /* Component */,
+				B262BAE82B2E15A000F85F4D /* Content */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B262BAE82B2E15A000F85F4D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				B22447CC2B2DB36600C9AF57 /* SettingsView.swift */,
+				B22447D62B2DB5D000C9AF57 /* ContentView.swift */,
+				B22447D22B2DB3A400C9AF57 /* NewCategorySheet.swift */,
+				B22447D42B2DB3B900C9AF57 /* CategoriesView.swift */,
+				B22447C62B2DB31200C9AF57 /* DetailView.swift */,
+				B2226F762B2F10110020C3CA /* VersionView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		B262BAE92B2E15C200F85F4D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B22447CA2B2DB35300C9AF57 /* ThemePicker.swift */,
+				B22447D02B2DB38B00C9AF57 /* ThemeView.swift */,
+				B22447C22B2DB2DA00C9AF57 /* CardView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		B262BAEA2B2E16E200F85F4D /* Organize */ = {
+			isa = PBXGroup;
+			children = (
+				B22447C42B2DB2FB00C9AF57 /* DetailEditView.swift */,
+				B21A26012B2DCCEA00E7675F /* NoteEditView.swift */,
+			);
+			path = Organize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B22447842B2DA7A900C9AF57 /* Kaizen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22447A92B2DA7AB00C9AF57 /* Build configuration list for PBXNativeTarget "Kaizen" */;
+			buildPhases = (
+				B22447812B2DA7A900C9AF57 /* Sources */,
+				B22447822B2DA7A900C9AF57 /* Frameworks */,
+				B22447832B2DA7A900C9AF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaizen;
+			productName = Kaizen;
+			productReference = B22447852B2DA7A900C9AF57 /* Kaizen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22447942B2DA7AB00C9AF57 /* KaizenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22447AC2B2DA7AB00C9AF57 /* Build configuration list for PBXNativeTarget "KaizenTests" */;
+			buildPhases = (
+				B22447912B2DA7AB00C9AF57 /* Sources */,
+				B22447922B2DA7AB00C9AF57 /* Frameworks */,
+				B22447932B2DA7AB00C9AF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22447972B2DA7AB00C9AF57 /* PBXTargetDependency */,
+			);
+			name = KaizenTests;
+			productName = KaizenTests;
+			productReference = B22447952B2DA7AB00C9AF57 /* KaizenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B224479E2B2DA7AB00C9AF57 /* KaizenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22447AF2B2DA7AB00C9AF57 /* Build configuration list for PBXNativeTarget "KaizenUITests" */;
+			buildPhases = (
+				B224479B2B2DA7AB00C9AF57 /* Sources */,
+				B224479C2B2DA7AB00C9AF57 /* Frameworks */,
+				B224479D2B2DA7AB00C9AF57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22447A12B2DA7AB00C9AF57 /* PBXTargetDependency */,
+			);
+			name = KaizenUITests;
+			productName = KaizenUITests;
+			productReference = B224479F2B2DA7AB00C9AF57 /* KaizenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B224477D2B2DA7A900C9AF57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B22447842B2DA7A900C9AF57 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B22447942B2DA7AB00C9AF57 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B22447842B2DA7A900C9AF57;
+					};
+					B224479E2B2DA7AB00C9AF57 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B22447842B2DA7A900C9AF57;
+					};
+				};
+			};
+			buildConfigurationList = B22447802B2DA7A900C9AF57 /* Build configuration list for PBXProject "Kaizen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B224477C2B2DA7A900C9AF57;
+			productRefGroup = B22447862B2DA7A900C9AF57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22447842B2DA7A900C9AF57 /* Kaizen */,
+				B22447942B2DA7AB00C9AF57 /* KaizenTests */,
+				B224479E2B2DA7AB00C9AF57 /* KaizenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22447832B2DA7A900C9AF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22447902B2DA7AB00C9AF57 /* Preview Assets.xcassets in Resources */,
+				B224478D2B2DA7AB00C9AF57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22447932B2DA7AB00C9AF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224479D2B2DA7AB00C9AF57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22447812B2DA7A900C9AF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22447BC2B2DB26100C9AF57 /* Theme.swift in Sources */,
+				B22447C72B2DB31200C9AF57 /* DetailView.swift in Sources */,
+				B22447D12B2DB38B00C9AF57 /* ThemeView.swift in Sources */,
+				B22447CB2B2DB35300C9AF57 /* ThemePicker.swift in Sources */,
+				B22447C52B2DB2FB00C9AF57 /* DetailEditView.swift in Sources */,
+				B22447D52B2DB3B900C9AF57 /* CategoriesView.swift in Sources */,
+				B22447892B2DA7A900C9AF57 /* KaizenApp.swift in Sources */,
+				B22447BE2B2DB28500C9AF57 /* Category.swift in Sources */,
+				B21A26022B2DCCEA00E7675F /* NoteEditView.swift in Sources */,
+				B22447C32B2DB2DA00C9AF57 /* CardView.swift in Sources */,
+				B22447D72B2DB5D000C9AF57 /* ContentView.swift in Sources */,
+				B22447C02B2DB2A400C9AF57 /* CategoryStore.swift in Sources */,
+				B2226F772B2F10110020C3CA /* VersionView.swift in Sources */,
+				B22447D32B2DB3A400C9AF57 /* NewCategorySheet.swift in Sources */,
+				B22447CD2B2DB36600C9AF57 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22447912B2DA7AB00C9AF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B224479A2B2DA7AB00C9AF57 /* KaizenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224479B2B2DA7AB00C9AF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22447A62B2DA7AB00C9AF57 /* KaizenUITestsLaunchTests.swift in Sources */,
+				B22447A42B2DA7AB00C9AF57 /* KaizenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B22447972B2DA7AB00C9AF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B22447842B2DA7A900C9AF57 /* Kaizen */;
+			targetProxy = B22447962B2DA7AB00C9AF57 /* PBXContainerItemProxy */;
+		};
+		B22447A12B2DA7AB00C9AF57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B22447842B2DA7A900C9AF57 /* Kaizen */;
+			targetProxy = B22447A02B2DA7AB00C9AF57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B22447A72B2DA7AB00C9AF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B22447A82B2DA7AB00C9AF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22447AA2B2DA7AB00C9AF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kaizen/Preview Content\"";
+				DEVELOPMENT_TEAM = 84VDA2LLP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TansuICIN.Kaizen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B22447AB2B2DA7AB00C9AF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kaizen/Preview Content\"";
+				DEVELOPMENT_TEAM = 84VDA2LLP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TansuICIN.Kaizen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B22447AD2B2DA7AB00C9AF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84VDA2LLP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TansuICIN.KaizenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaizen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaizen";
+			};
+			name = Debug;
+		};
+		B22447AE2B2DA7AB00C9AF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84VDA2LLP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TansuICIN.KaizenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaizen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaizen";
+			};
+			name = Release;
+		};
+		B22447B02B2DA7AB00C9AF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84VDA2LLP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TansuICIN.KaizenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaizen;
+			};
+			name = Debug;
+		};
+		B22447B12B2DA7AB00C9AF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84VDA2LLP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TansuICIN.KaizenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaizen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B22447802B2DA7A900C9AF57 /* Build configuration list for PBXProject "Kaizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22447A72B2DA7AB00C9AF57 /* Debug */,
+				B22447A82B2DA7AB00C9AF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22447A92B2DA7AB00C9AF57 /* Build configuration list for PBXNativeTarget "Kaizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22447AA2B2DA7AB00C9AF57 /* Debug */,
+				B22447AB2B2DA7AB00C9AF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22447AC2B2DA7AB00C9AF57 /* Build configuration list for PBXNativeTarget "KaizenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22447AD2B2DA7AB00C9AF57 /* Debug */,
+				B22447AE2B2DA7AB00C9AF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22447AF2B2DA7AB00C9AF57 /* Build configuration list for PBXNativeTarget "KaizenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22447B02B2DA7AB00C9AF57 /* Debug */,
+				B22447B12B2DA7AB00C9AF57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B224477D2B2DA7A900C9AF57 /* Project object */;
+}
